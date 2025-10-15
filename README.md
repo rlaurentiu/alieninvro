@@ -18,7 +18,10 @@ An interactive Shiny dashboard for exploring alien invertebrate species data inc
 
 ## Installation
 
-You can install the development version of alieninvro from GitHub:
+You can install the development version of alieninvro R package from GitHub:
+
+You need to have installed version 4.5 (minimum) and R Studio (see https://posit.co/downloads/)
+
 ```r
 # Install devtools if you haven't already
 install.packages("devtools")
