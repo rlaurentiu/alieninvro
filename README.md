@@ -1,13 +1,13 @@
-# alieninvro
+# Alien invertebrates of Romania [alieninvro]
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-An interactive Shiny dashboard for exploring alien invertebrate species data included in the paper "From soil to stream and sea: species richness and distribution of alien invertebrates in Romania" by Preda et al. (submitted to Neobiota).
+An interactive Shiny dashboard for exploring alien invertebrate species data included in the paper "From soil to stream and sea: species richness and distribution of alien invertebrates in Romania" by Cristina Preda et al. (submitted to Neobiota).
 
 ## Features
 
-- **Interactive Map**: Species distribution across Romania, color-coded by realm
+- **Interactive Map**: Alien species distribution across Romania, color-coded by realm
 - **Advanced Filtering**: Filter by realm, species, family, EU status, county, and year
 - **Statistical Visualizations**: Top species, counties, families, and temporal trends
 - **Pathway Analysis**: Chord diagrams showing introduction pathways and origins
