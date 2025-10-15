@@ -5,6 +5,8 @@
 
 An interactive Shiny dashboard for exploring alien invertebrate species data included in the paper "From soil to stream and sea: species richness and distribution of alien invertebrates in Romania" by Cristina Preda et al. (submitted to Neobiota).
 
+
+
 ## Features
 
 - **Interactive Map**: Alien species distribution across Romania, color-coded by realm
@@ -45,6 +47,10 @@ The package includes three datasets:
 If you use this dashboard or data, please cite:
 
 Preda et al. (submitted). From soil to stream and sea: species richness and distribution of alien invertebrates in Romania. *Neobiota*.
+
+### Development Tools
+
+Dashboard development: Claude AI (Anthropic). Claude Opus 4.1 and Claude Sonnet 4.5. https://claude.ai
 
 ## License
 
