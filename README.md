@@ -1,6 +1,12 @@
 # Alien invertebrates of Romania [alieninvro]
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/rlaurentiu/alieninvro/workflows/R-CMD-check/badge.svg)](https://github.com/rlaurentiu/alieninvro/actions)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/v/release/rlaurentiu/alieninvro)](https://github.com/rlaurentiu/alieninvro/releases)
+[![GitHub issues](https://img.shields.io/github/issues/rlaurentiu/alieninvro)](https://github.com/rlaurentiu/alieninvro/issues)
+[![GitHub stars](https://img.shields.io/github/stars/rlaurentiu/alieninvro)](https://github.com/rlaurentiu/alieninvro/stargazers)
 <!-- badges: end -->
 
 An interactive Shiny dashboard for exploring alien invertebrate species data included in the paper "From soil to stream and sea: species richness and distribution of alien invertebrates in Romania" by Cristina Preda et al. (submitted to Neobiota).
