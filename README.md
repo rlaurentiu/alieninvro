@@ -1,7 +1,6 @@
 # Alien invertebrates of Romania [alieninvro]
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R-version](https://img.shields.io/badge/R-%E2%89%A54.0.0-blue)](https://cran.r-project.org/)
 [![GitHub release](https://img.shields.io/github/v/release/rlaurentiu/alieninvro)](https://github.com/rlaurentiu/alieninvro/releases)
