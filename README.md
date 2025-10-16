@@ -51,9 +51,15 @@ If you use this dashboard or data, please cite:
 
 Preda et al. (submitted). From soil to stream and sea: species richness and distribution of alien invertebrates in Romania. *Neobiota*.
 
-### Development Tools
+## Acknowledgments
 
-Dashboard development: Claude AI (Anthropic). Claude Opus 4.1 and Claude Sonnet 4.5. https://claude.ai
+This package was developed with assistance from Claude AI (Anthropic) for:
+- R/Shiny application code development
+- Package structure and organization  
+- Data visualization and interactive features
+- User interface design
+
+Human contributions: Data curation, scientific analysis, conceptualization, and validation.
 
 ## License
 
