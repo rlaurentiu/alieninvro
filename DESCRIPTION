@@ -1,6 +1,6 @@
 Package: alieninvro
 Title: Alien invertebrates of Romania
-Version: 0.0.1
+Version: 0.0.1a
 Date: 2024-10-15
 Authors@R: 
     person("Cristina", "Preda", email = "cristina.preda@365.univ-ovidius.ro,  orcid = "0000-0002-3513-7344", role = c("aut", "cre")),
