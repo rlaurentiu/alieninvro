@@ -18,32 +18,51 @@ An interactive Shiny dashboard for exploring alien invertebrate species data inc
 
 ## Installation
 
-You can install the development version of alieninvro R package from GitHub:
+### Prerequisites
+- **R**: Version 4.0.0 or higher is required
+  - Download from: https://cran.r-project.org/
+  - Check your version: `R.version.string`
+  
+- **RStudio** (optional but recommended): 
+  - Download from: https://posit.co/downloads/
 
-You need to have installed R version 4.5 (minimum) and R Studio (see https://posit.co/downloads/)
-
+### Install Package
 ```r
-# Install devtools if you haven't already
+# 1. Install devtools (if not already installed)
 install.packages("devtools")
 
-# Install alieninvro
+# 2. Install alieninvro from GitHub
 devtools::install_github("rlaurentiu/alieninvro")
-```
 
-## Usage
-
-After installation, launch the app with:
-```r
+# 3. Load the package
 library(alieninvro)
+
+# 4. Launch the dashboard
 run_alieninvro_app()
 ```
 
-## Data
+### Installing a Specific Version
+```r
+# Install version 1.0.0
+devtools::install_github("rlaurentiu/alieninvro@v1.0.0")
 
-The package includes three datasets:
-- `species_data`: Main occurrence records
-- `species_chord`: Pathway and origin data
-- `species_list`: Data source classifications
+# Install the latest development version
+devtools::install_github("rlaurentiu/alieninvro@main")
+```
+
+### Troubleshooting
+
+If you encounter installation issues:
+```r
+# Update all dependencies
+update.packages(ask = FALSE)
+
+# Install with dependencies
+devtools::install_github("rlaurentiu/alieninvro", dependencies = TRUE)
+
+# Install with build vignettes (if available)
+devtools::install_github("rlaurentiu/alieninvro", build_vignettes = TRUE)
+```
 
 ## Citation
 
