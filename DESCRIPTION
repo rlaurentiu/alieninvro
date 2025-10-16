@@ -3,7 +3,7 @@ Title: Alien invertebrates of Romania
 Version: 1.0.1
 Date: 2024-10-15
 Authors@R: 
-    person("Cristina", "Preda", email = "cristina.preda@365.univ-ovidius.ro, role = c("aut", "cre")),
+    person("Cristina", "Preda", email = "cristina.preda@365.univ-ovidius.ro", role = c("aut", "cre")),
     person("Laurentiu", "Rozylowicz", 
            email = "laurentiu.rozylowicz@g.unibuc.ro",
            role = c("aut", "cre")),
