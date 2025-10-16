@@ -2,14 +2,13 @@ Package: alieninvro
 Title: Alien invertebrates of Romania
 Version: 1.0.1
 Date: 2024-10-15
-Authors@R: 
-    person("Cristina", "Preda", email = "cristina.preda@365.univ-ovidius.ro", role = c("aut", "cre")),
-    person("Laurentiu", "Rozylowicz", 
-           email = "laurentiu.rozylowicz@g.unibuc.ro",
-           role = c("aut", "cre")),
-          person("Claude AI", "", 
-           role = "ctb",
-           comment = "AI assistant (Anthropic) - code development"))           
+Authors@R: c(
+    person("Cristina", "Preda", email = "cristina.preda@365.univ-ovidius.ro", 
+           role = c("aut", "cph"), comment = c(ORCID = "0000-0002-3513-7344")),
+    person("Laurentiu", "Rozylowicz", email = "laurentiu.rozylowicz@g.unibuc.ro", 
+           role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0001-7174-032X")),
+    person("Claude", "AI", role = "ctb", 
+           comment = "AI assistant (Anthropic) - dashboard development assistance"))
 Description: An interactive Shiny dashboard for exploring alien invertebrate species data included in the paper "From soil to stream and sea: species richness and distribution of alien invertebrates in Romania" by Cristina Preda et al. (submitted to Neobiota).
 Dashboard development: Claude AI (Anthropic). Claude Opus 4.1 and Claude Sonnet 4.5. https://claude.ai
 License: MIT + file LICENSE
