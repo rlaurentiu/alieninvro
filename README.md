@@ -7,7 +7,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/rlaurentiu/alieninvro)](https://github.com/rlaurentiu/alieninvro/releases)
 [![Shiny](https://img.shields.io/badge/Shiny-Dashboard-blue?logo=r&logoColor=white)](https://shiny.posit.co/)
 [![Developed with Claude AI](https://img.shields.io/badge/AI%20Assisted-Claude-orange?logo=anthropic)](https://claude.ai)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.17368368)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17368368.svg)](https://doi.org/10.5281/zenodo.17368368)
 <!-- badges: end -->
 
 An interactive Shiny dashboard for exploring alien invertebrate species data included in the paper "From soil to stream and sea: species richness and distribution of alien invertebrates in Romania" by Cristina Preda et al. (submitted to Neobiota).
