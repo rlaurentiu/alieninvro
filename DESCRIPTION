@@ -17,3 +17,25 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+Depends: 
+    R (>= 4.0.0)
+Imports:
+    shiny (>= 1.7.0),
+    shinydashboard,
+    shinyWidgets,
+    leaflet,
+    DT,
+    dplyr,
+    plotly,
+    circlize,
+    viridis,
+    ggplot2,
+    ggvenn,
+    ggpubr,
+    openxlsx
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/rlaurentiu/alieninvro
+BugReports: https://github.com/rlaurentiu/alieninvro/issues
