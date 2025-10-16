@@ -1,9 +1,18 @@
 Package: alieninvro
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9001
+Title: Alien invertebrates of Romania
+Version: 0.0.1
+Date: 2024-10-15
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Cristina", "Preda", email = "cristina.preda@365.univ-ovidius.ro,  orcid = "0000-0002-3513-7344", role = c("aut", "cre")),
+    person("Laurentiu", "Rozylowicz", 
+           email = "laurentiu.rozylowicz@g.unibuc.ro", 
+            orcid = "0000-0001-7174-032X",
+           role = c("aut", "cre")),
+          person("Claude AI", "", 
+           role = "ctb",
+           comment = "AI assistant (Anthropic) - code development"))           
+Description: An interactive Shiny dashboard for exploring alien invertebrate species data included in the paper "From soil to stream and sea: species richness and distribution of alien invertebrates in Romania" by Cristina Preda et al. (submitted to Neobiota).
+Dashboard development: Claude AI (Anthropic). Claude Opus 4.1 and Claude Sonnet 4.5. https://claude.ai
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
