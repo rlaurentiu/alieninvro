@@ -1,12 +1,12 @@
 # Alien invertebrates of Romania [alieninvro]
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/rlaurentiu/alieninvro/workflows/R-CMD-check/badge.svg)](https://github.com/rlaurentiu/alieninvro/actions)
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![R-version](https://img.shields.io/badge/R-%E2%89%A54.0.0-blue)](https://cran.r-project.org/)
 [![GitHub release](https://img.shields.io/github/v/release/rlaurentiu/alieninvro)](https://github.com/rlaurentiu/alieninvro/releases)
-[![GitHub issues](https://img.shields.io/github/issues/rlaurentiu/alieninvro)](https://github.com/rlaurentiu/alieninvro/issues)
-[![GitHub stars](https://img.shields.io/github/stars/rlaurentiu/alieninvro)](https://github.com/rlaurentiu/alieninvro/stargazers)
+[![Shiny](https://img.shields.io/badge/Shiny-Dashboard-blue?logo=r&logoColor=white)](https://shiny.posit.co/)
+[![Developed with Claude AI](https://img.shields.io/badge/AI%20Assisted-Claude-orange?logo=anthropic)](https://claude.ai)
 <!-- badges: end -->
 
 An interactive Shiny dashboard for exploring alien invertebrate species data included in the paper "From soil to stream and sea: species richness and distribution of alien invertebrates in Romania" by Cristina Preda et al. (submitted to Neobiota).
