@@ -474,7 +474,7 @@ ui <- dashboardPage(
     sidebarMenu(
       menuItem("Species Map", tabName = "map", icon = icon("map-marked-alt")),
       menuItem("Statistics", tabName = "stats", icon = icon("chart-line")),
-      menuItem("Occurence Sources", tabName = "datasources", icon = icon("database")),
+      menuItem("Occurrence Sources", tabName = "datasources", icon = icon("database")),
       menuItem("Pathways & Origin", tabName = "pathways", icon = icon("project-diagram")),
       menuItem("Data Table", tabName = "table", icon = icon("table")),
       menuItem("About", tabName = "about", icon = icon("info-circle"))
@@ -812,8 +812,11 @@ ui <- dashboardPage(
 
                        tags$div(style = "background: #ffffff; padding: 20px; border-radius: 4px; margin-bottom: 20px; border: 1px solid #e0e0e0;",
                                 h4(icon("info-circle"), "Application Information", style = "color: #2c3e50;"),
-                                p(tags$b("Version:"), " 1.0"),
-                                p(tags$b("Date of Deployment:"), format(Sys.Date(), "%B %d, %Y")),
+                                p(tags$b("Version:"), paste0(" ", as.character(packageVersion("alieninvro")))),
+                                p(tags$b("Date of Deployment:"), {
+                                  app_file <- system.file("shiny", "app.R", package = "alieninvro")
+                                  format(file.info(app_file)$mtime, "%B %d, %Y")
+                                }),
                                 p(tags$b("Purpose:"), " This interactive application allows you to explore alien invertebrate species data included in the paper \"From soil to stream and sea: species richness and distribution of alien invertebrates in Romania\" by Preda et al. (submitted to Neobiota)."),
                                 p(tags$b("Development:"), " Dashboard developed with assistance from Claude.ai Claude Opus 4.1 (Anthropic).")
                        ),
@@ -851,7 +854,7 @@ ui <- dashboardPage(
 
                        tags$div(style = "background: #ffffff; padding: 20px; border-radius: 4px; border: 1px solid #e0e0e0;",
                                 h4(icon("cogs"), "Technical Information", style = "color: #2c3e50;"),
-                                p(tags$b("R version:"), " 4.5.1 for Windows"),
+                                p(tags$b("R version:"), paste0(" ", R.version.string)),
                                 p(tags$b("RStudio version:"), " 2025.09.0+387"),
                                 h5(tags$b("R Package Versions:")),
                                 fluidRow(
