@@ -1,10 +1,10 @@
 citHeader("To cite alieninvro in publications use:")
 
 bibentry(
-  bibtype = "Article",
-  title   = "From soil to stream and sea: species richness and distribution of alien invertebrates in Romania",
-  author  =  person("Cristina", "Preda"), person("Laurentiu", "Rozylowicz"),
-  journal = "Neobiota",
+  bibtype = "Software",
+  title   = "Alien invertebrates of Romania [alieninvro]",
+  author  = c(person("Cristina", "Preda"), person("Laurentiu", "Rozylowicz")),
+  journal = "Zenodo",
   year    = "2025",
-  note    = "submitted"
-)
+  doi    = "10.5281/zenodo.17368368"
+  )
