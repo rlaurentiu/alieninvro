@@ -74,7 +74,7 @@ devtools::install_github("rlaurentiu/alieninvro", build_vignettes = TRUE)
 
 If you use this dashboard or data, please cite:
 
-Preda et al. (submitted). From soil to stream and sea: species richness and distribution of alien invertebrates in Romania. *Neobiota*.
+Preda, C. and Rozylowicz, L. (2025) “Alien invertebrates of Romania [alieninvro]”. Zenodo. doi:10.5281/zenodo.17368368.
 
 ## Acknowledgments
 
