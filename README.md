@@ -9,7 +9,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17368368.svg)](https://doi.org/10.5281/zenodo.17368368)
 <!-- badges: end -->
 
-An interactive Shiny dashboard for exploring alien invertebrate species data included in the paper "From soil to stream and sea: species richness and distribution of alien invertebrates in Romania" by Cristina Preda et al. (submitted to Neobiota).
+An interactive Shiny dashboard for exploring alien invertebrate species data included in the paper "From soil to stream and sea: species richness and distribution of alien invertebrates in Romania" by Cristina Preda et al. (prepared for Neobiota).
 
 
 
@@ -49,8 +49,8 @@ run_alieninvro_app()
 
 ### Installing a Specific Version
 ```r
-# Install version 1.0.0
-devtools::install_github("rlaurentiu/alieninvro@v1.0.0")
+# Install version 0.0.1
+devtools::install_github("rlaurentiu/alieninvro@v0.0.1")
 
 # Install the latest development version
 devtools::install_github("rlaurentiu/alieninvro@main")
