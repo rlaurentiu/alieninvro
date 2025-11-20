@@ -37,7 +37,7 @@ data("species_chord", package = "alieninvro", envir = environment())
 data("species_list", package = "alieninvro", envir = environment())
 
 
-# Prepare main data with realm-specific popup
+# Prepare data with realm-specific popup
 species_data <- species_data %>%
   filter(!is.na(decimalLatitude) & !is.na(decimalLongitude)) %>%
   mutate(
@@ -128,7 +128,7 @@ unique_eu_concern_species <- species_data %>%
 
 # UI
 ui <- dashboardPage(
-  title = "Alien Invertebrates of Romania",  # Set proper browser title
+  title = "Alien Invertebrates of Romania",  # Set browser title
 
   dashboardHeader(
     title = tags$span(
